@@ -1,0 +1,24 @@
+.searchBox {
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    width: 230px;
+    height: 30px;
+    background-color: #f2dea8;
+    border: none;
+    padding: 12px 20px;
+    font-size: 14px;
+    color: #020205;
+  }
+  
+  /* When the input field gets focus, change its width to 100% */
+  input[type="text"]:focus {
+    outline: none;
+    background-color: #f9f2d7;
+    /* width: 100%; */
+  }
+  
+  .primaryButton {
+    background-color: blue;
+  }
